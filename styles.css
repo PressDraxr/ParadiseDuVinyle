@@ -1,0 +1,85 @@
+/* Resetando alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Preto profundo para o fundo */
+    color: #ffffff; /* Texto branco */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff6600; /* Laranja vibrante */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Seção principal */
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.intro {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6600; /* Laranja */
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #e55d00; /* Um tom de laranja mais escuro para o efeito hover */
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a1a1a;
+    color: #888888;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
